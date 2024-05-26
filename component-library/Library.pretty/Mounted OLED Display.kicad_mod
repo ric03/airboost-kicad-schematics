@@ -1,0 +1,188 @@
+(footprint "Mounted OLED Display"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b6e55887-7f6b-4ab7-9836-979a5ea508ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Mounted OLED Display"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bdea6e3c-d390-4db1-af07-7f7f66f54824")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c7853a1-2836-4e82-a0ae-384e1ad22bd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ef1eed4-838e-44e3-876b-edbec49d4f38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c2d80eb-4165-46f3-b856-0ede88289dab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -28.5 4.5)
+		(end 28.5 42.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3628397f-467b-4570-b993-a9562ac35461")
+	)
+	(fp_rect
+		(start -24.5 11)
+		(end 25 39)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "982b200f-d4b7-48aa-a647-5229302902e9")
+	)
+	(fp_text user "VCC"
+		(at -6 9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "32c44da8-75ae-411d-9395-5c1c359ecf9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SDA"
+		(at 3 9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "724f536a-4ab7-413b-99f9-7ff9357b391f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at -3 9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a43a5a29-2069-48fa-832d-35c9f96133cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SCL"
+		(at 0 9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f97f0efb-51ad-4ef3-831c-b15778eddd67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "82a5a8f6-b7be-4690-91cf-3414a3207842")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -4.5 6.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c27d00e3-5cc4-4529-9aa8-dccb21dd9533")
+	)
+	(pad "2" thru_hole circle
+		(at -1.5 6.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e46abfaa-a00b-4099-ae2e-b802054de2ef")
+	)
+	(pad "3" thru_hole circle
+		(at 1.5 6.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "11538507-a25c-4243-b7e4-c26a0865d3a2")
+	)
+	(pad "4" thru_hole circle
+		(at 4.5 6.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "861c1c56-923b-4e20-99e2-56a3494335dc")
+	)
+)
