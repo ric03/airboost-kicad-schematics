@@ -7,7 +7,7 @@
 	(title_block
 		(title "Airboost")
 		(date "2024-05-26")
-		(rev "v1.0.0")
+		(rev "v1.0.1")
 	)
 	(lib_symbols
 		(symbol "Device:Buzzer"
@@ -1925,10 +1925,10 @@
 		(uuid "33cba3e0-01dd-46fa-8175-f94e0eea89df")
 	)
 	(junction
-		(at 27.94 96.52)
+		(at 30.48 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "374ee850-acb6-4097-8cd0-e90ee415f33e")
+		(uuid "3759d45d-9ba9-4696-a9d4-96352d7d89c7")
 	)
 	(junction
 		(at 83.82 96.52)
@@ -1937,16 +1937,22 @@
 		(uuid "4eff889b-4ad8-49b1-88a0-c566fbab6403")
 	)
 	(junction
+		(at 25.4 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ce4e631-47b4-482c-a6a4-0c9a2a1d8dde")
+	)
+	(junction
 		(at 172.72 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f3c1d1d-395a-49fd-9d81-27f46051fe2e")
 	)
 	(junction
-		(at 25.4 96.52)
+		(at 46.99 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d1a4a576-a662-4cd4-a32d-ee2253b82ffa")
+		(uuid "e3f82ab5-888e-4440-9e77-9a57a9733002")
 	)
 	(no_connect
 		(at 88.9 33.02)
@@ -2028,7 +2034,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 72.39) (xy 27.94 96.52)
+			(xy 30.48 72.39) (xy 30.48 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2038,7 +2044,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 55.88) (xy 53.34 69.85)
+			(xy 30.48 87.63) (xy 30.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19375146-efd4-4424-b3da-0eaee9f14efb")
+	)
+	(wire
+		(pts
+			(xy 55.88 55.88) (xy 55.88 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2048,7 +2064,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 39.37) (xy 22.86 96.52)
+			(xy 25.4 39.37) (xy 25.4 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2075,16 +2091,6 @@
 			(type default)
 		)
 		(uuid "26759032-9487-4dcb-8005-17c4d0ea8fe7")
-	)
-	(wire
-		(pts
-			(xy 27.94 96.52) (xy 67.31 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2842d824-f481-4f80-901a-16c2ba29e43c")
 	)
 	(wire
 		(pts
@@ -2128,7 +2134,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 67.31) (xy 58.42 74.93)
+			(xy 58.42 58.42) (xy 58.42 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2148,7 +2154,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 39.37) (xy 22.86 39.37)
+			(xy 34.29 39.37) (xy 25.4 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2218,6 +2224,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 50.8) (xy 25.4 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c15996-8c66-421d-84e2-f191bae36b91")
+	)
+	(wire
+		(pts
 			(xy 123.19 83.82) (xy 140.97 83.82)
 		)
 		(stroke
@@ -2268,7 +2284,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 74.93) (xy 45.72 74.93)
+			(xy 58.42 74.93) (xy 46.99 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2285,16 +2301,6 @@
 			(type default)
 		)
 		(uuid "73595d6e-0546-4e63-8433-6df967d94d7f")
-	)
-	(wire
-		(pts
-			(xy 22.86 96.52) (xy 25.4 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "774b0e57-513e-461e-b74f-25bcce8df72e")
 	)
 	(wire
 		(pts
@@ -2328,7 +2334,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 72.39) (xy 30.48 72.39)
+			(xy 30.48 72.39) (xy 31.75 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2356,26 +2362,6 @@
 		)
 		(uuid "b6148e7a-8d54-4b2f-8039-0cf5cd6bba11")
 	)
-	(wire
-		(pts
-			(xy 25.4 50.8) (xy 25.4 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b64a3278-ec4f-40db-9417-83d3b888901a")
-	)
-	(wire
-		(pts
-			(xy 58.42 58.42) (xy 58.42 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1327c0e-3c5a-4c9b-a0e5-cd9b519df899")
-	)
 	(bus
 		(pts
 			(xy 120.65 43.18) (xy 120.65 45.72)
@@ -2398,7 +2384,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 55.88) (xy 71.12 55.88)
+			(xy 55.88 55.88) (xy 71.12 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2408,13 +2394,23 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 96.52) (xy 27.94 96.52)
+			(xy 25.4 96.52) (xy 30.48 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "daacd735-eb16-4b53-8cae-bae064262e2c")
+	)
+	(wire
+		(pts
+			(xy 30.48 96.52) (xy 67.31 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab27489-516d-4bfc-a69f-1b2eeacce5f9")
 	)
 	(wire
 		(pts
@@ -2458,7 +2454,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 69.85) (xy 53.34 69.85)
+			(xy 46.99 69.85) (xy 55.88 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2518,6 +2514,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 69.85) (xy 45.72 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca43218-33be-425b-b79d-2d6062b0104b")
+	)
+	(wire
+		(pts
 			(xy 67.31 87.63) (xy 63.5 87.63)
 		)
 		(stroke
@@ -2538,7 +2544,7 @@
 		(uuid "443e3fca-ddaa-40f1-8faa-4f88f17d800f")
 	)
 	(label "RED"
-		(at 45.72 74.93 0)
+		(at 46.99 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2593,7 +2599,7 @@
 		(uuid "affb3d81-6e4a-40b4-a831-b16ecc5140c8")
 	)
 	(label "GREEN"
-		(at 45.72 69.85 0)
+		(at 46.99 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2771,6 +2777,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 30.48 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43d4909b-ccfb-44a0-aa57-75371dd20b4e")
+		(property "Reference" "R1"
+			(at 33.02 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150"
+			(at 33.02 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 28.702 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 30.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "735e8832-d1e7-4fcf-9d19-fb1bd7b59163")
+		)
+		(pin "1"
+			(uuid "9febe22f-0b25-4f15-8855-4d77338cc17d")
+		)
+		(instances
+			(project "airboost-kicad"
+				(path "/8083be59-9f45-42ae-bb9c-d5ee5d95f647"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 39.37 39.37 0)
 		(unit 1)
@@ -2910,7 +2986,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Dual_AKA")
-		(at 38.1 72.39 0)
+		(at 39.37 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2919,7 +2995,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c0d3728-7dfe-4837-94eb-365a75d72ee7")
 		(property "Reference" "D1"
-			(at 38.1635 60.96 0)
+			(at 39.4335 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2927,7 +3003,7 @@
 			)
 		)
 		(property "Value" "LED_Dual_AKA"
-			(at 38.1635 63.5 0)
+			(at 39.4335 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,7 +3011,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 72.39 0)
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +3020,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 72.39 0)
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2953,7 +3029,7 @@
 			)
 		)
 		(property "Description" "Dual LED, common cathode on pin 2"
-			(at 38.1 72.39 0)
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,76 +3050,6 @@
 			(project "airboost-kicad"
 				(path "/8083be59-9f45-42ae-bb9c-d5ee5d95f647"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 58.42 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cc78cc5-25e6-41dc-95f7-03afa0c98cb2")
-		(property "Reference" "R1"
-			(at 60.96 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150"
-			(at 60.96 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 56.642 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9e7d69b7-f1cd-40a1-95b7-e08db24ec828")
-		)
-		(pin "1"
-			(uuid "b2038a39-a9d7-46c2-8c4d-0db18a0bc42e")
-		)
-		(instances
-			(project "airboost-kicad"
-				(path "/8083be59-9f45-42ae-bb9c-d5ee5d95f647"
-					(reference "R1")
 					(unit 1)
 				)
 			)

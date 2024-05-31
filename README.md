@@ -2,7 +2,7 @@
 
 Schematics for the airboost project. Powered by https://www.kicad.org/
 
-![airboost-schematics.png](docs/airboost-schematics.png)
+![airboost-schematic.png](docs/airboost-schematic.png)
 
 ## Commiting
 
